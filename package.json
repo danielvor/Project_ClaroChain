@@ -1,0 +1,32 @@
+{
+  "name": "claro-blockchain---visitas-tecnicas",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "A Vite project for Claro Blockchain - Visitas Técnicas",
+  "author": "Daniel Victor de Oliveira Rodrigues",
+  "license": "MIT",
+  "keywords": [
+    "vite",
+    "blockchain",
+    "claro",
+    "visitas",
+    "tecnicas"
+  ],
+  "homepage": "https://danielvor.github.io/Project_ClaroChain",  
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0"
+  }
+}
